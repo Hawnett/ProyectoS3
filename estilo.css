@@ -20,3 +20,16 @@ a {
 a:visited {
     color:red;
 }
+
+.contenedor {
+    display: flex;
+    flex-direction: row;
+}
+
+.left-column {
+    flex: 3;
+}
+
+.right-column {
+    flex: 1;
+}
